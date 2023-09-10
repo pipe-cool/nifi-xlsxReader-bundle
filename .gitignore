@@ -26,3 +26,16 @@ replay_pid*
 /nifi-xlsxReader-processors/target/
 *.iml
 /target/
+*.versionsBackup
+/nifi-xlsxReader-nar/target/classes/META-INF/DEPENDENCIES
+/nifi-xlsxReader-nar/target/classes/META-INF/LICENSE
+/nifi-xlsxReader-nar/target/classes/META-INF/NOTICE
+/nifi-xlsxReader-nar/target/maven-archiver/pom.properties
+/nifi-xlsxReader-nar/target/maven-shared-archive-resources/META-INF/DEPENDENCIES
+/nifi-xlsxReader-nar/target/maven-shared-archive-resources/META-INF/LICENSE
+/nifi-xlsxReader-nar/target/maven-shared-archive-resources/META-INF/NOTICE
+/nifi-xlsxReader-nar/target/META-INF/docs/extension-manifest.xml
+/nifi-xlsxReader-nar/target/test-classes/META-INF/DEPENDENCIES
+/nifi-xlsxReader-nar/target/test-classes/META-INF/LICENSE
+/nifi-xlsxReader-nar/target/test-classes/META-INF/NOTICE
+/nifi-xlsxReader-nar/target/.plxarc

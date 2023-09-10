@@ -24,7 +24,7 @@
 
     <groupId>cool.pipe</groupId>
     <artifactId>nifi-xlsxReader-bundle</artifactId>
-    <version>1.0</version>
+    <version>1.23.2</version>
     <packaging>pom</packaging>
 
     <modules>
