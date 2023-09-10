@@ -44,7 +44,7 @@ import java.util.Set;
 @SeeAlso()
 @ReadsAttributes({@ReadsAttribute(attribute = "")})
 @WritesAttributes({@WritesAttribute(attribute = "")})
-public class MyProcessor extends AbstractProcessor {
+public class XlsxReader extends AbstractProcessor {
 
     public static final PropertyDescriptor PATH = new PropertyDescriptor
             .Builder().name("path")
