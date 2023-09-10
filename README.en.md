@@ -1,5 +1,5 @@
 # NiFi Custom Processor - nifi-xlsxReader-bundle
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/pipe-cool/nifi-xlsxReader-bundle/blob/main/README.md)
 
 This custom processor for Apache NiFi, called `nifi-xlsxReader-bundle`, has been developed to allow reading Excel files in XLSX format and converting the read content into a `FlowFile` that can be used in the NiFi workflow.
 
