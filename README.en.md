@@ -7,8 +7,8 @@ This custom processor for Apache NiFi, called `nifi-xlsxReader-bundle`, has been
 
 - **Processor Name**: nifi-xlsxReader-bundle
 - **Programming Language**: Kotlin
-- Library Used**: Apache POI
-- **Compile Command**: `mvn clean install`: `mvn clean install`.
+- **Library Used**: Apache POI
+- **Compile Command**: `mvn clean install`
 
 ## Functionality
 
