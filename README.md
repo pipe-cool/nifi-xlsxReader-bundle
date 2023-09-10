@@ -1,7 +1,7 @@
 # Procesador Personalizado NiFi - nifi-xlsxReader-bundle
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/pipe-cool/nifi-xlsxReader-bundle/blob/main/README.en.md)
 
-Este procesador personalizado para Apache NiFi, llamado `nifi-xlsxReader-bundle`, se ha desarrollado para permitir la lectura de archivos Excel en formato XLSX y convertir el contenido leído en un `FlowFile` que se puede utilizar en el flujo de trabajo de NiFi.
+Este procesador personalizado para Apache NiFi, llamado `nifi-xlsxReader-bundle`, se ha desarrollado para permitir la lectura de archivos Excel en formato XLSX y convertir el contenido leído en un `JSON` que se puede utilizar en el flujo de trabajo de NiFi.
 
 ## Detalles del Procesador
 
@@ -12,7 +12,7 @@ Este procesador personalizado para Apache NiFi, llamado `nifi-xlsxReader-bundle`
 
 ## Funcionalidad
 
-El procesador `nifi-xlsxReader-bundle` permite leer archivos Excel XLSX y convertir su contenido en un `FlowFile`. Esto es especialmente útil en flujos de trabajo de NiFi donde se necesita procesar datos contenidos en hojas de cálculo de Excel.
+El procesador `nifi-xlsxReader-bundle` permite leer archivos Excel XLSX y convertir su contenido en un `JSON`. Esto es especialmente útil en flujos de trabajo de NiFi donde se necesita procesar datos contenidos en hojas de cálculo de Excel.
 
 ## Biblioteca Utilizada
 
