@@ -33,6 +33,9 @@ import org.apache.nifi.processor.ProcessorInitializationContext;
 import org.apache.nifi.processor.Relationship;
 import org.apache.nifi.processor.util.StandardValidators;
 
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
@@ -166,7 +169,16 @@ public class XlsxReader extends AbstractProcessor {
         } else {
             flowFile = session.putAttribute(flowFile, "mime.type", "application/json");
 
-            flowFile = session.write(flowFile, outputStream -> outputStream.write(result.getBytes()));
+            // Configura la codificación UTF-8 para la escritura
+            flowFile = session.write(flowFile, outputStream -> {
+                // Específica la codificación UTF-8 al crear el OutputStreamWriter
+                try (OutputStreamWriter writer = new OutputStreamWriter(outputStream, StandardCharsets.UTF_8)) {
+                    writer.write(result);
+                } catch (IOException e) {
+                    getLogger().error("Error al escribir en el FlowFile: " + e.getMessage());
+                }
+            });
+
             session.transfer(flowFile, REL_SUCCESS);
         }
 
